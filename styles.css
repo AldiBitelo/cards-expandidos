@@ -10,7 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    overflow: 0;
+    overflow: hidden;
     margin: 0;
 }
 .container {
@@ -41,7 +41,7 @@ body{
         opacity:0;
     }
     .panel.active{
-        felx: 5px;
+        flex: 5px;
     }
     .panel active h3 {
         opacity: 1;
